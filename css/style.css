@@ -1,0 +1,29 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 96px 0;
+}
+
+/* Navigation */
+.navigation {
+  background-color: orange;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDSSxzQkFBc0I7QUNBMUI7O0FER0E7RUFDSSxTQUFTO0VBQ1QsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQiw4Q0FBOEM7RUFDOUMsWUFBWTtBQ0FoQjs7QURHQTtFQUNJLGlCQUFpQjtFQUNqQixhQUFhO0VBQ2IsaUJBQWlCO0VBQ2pCLGtCQUFrQjtBQ0F0Qjs7QURHQTtFQUNJLGVBQWU7QUNBbkI7O0FER0EsZUFBQTtBQUVBO0VBQ0ksd0JBQXdCO0FDRDVCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
