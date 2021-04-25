@@ -25,6 +25,85 @@ section {
 
 /* Navigation */ 
 
-.navigation {
-    background-color: orange;
+.navigation a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+}
+
+.work {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: inherit;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s;
+}
+
+.btn-primary {
+    border-color: yellow;
+    color: black;
+    background-color: yellow
+}
+
+.navigation .box {
+    margin-right: 600px;
+}
+
+.obraz {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/g08j6F5p/pexels-pedro-figueras-681467.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    color: white;
+}
+
+.navbar-brand {
+    color: yellow;
+}
+
+.center {
+    color: white;
+}
+
+.center1 {
+    font-size: 50px;
+}
+
+.center2 {
+    font-size: 70px;
+}
+
+header {
+    line-height: 35px;
+    margin-top: 200px;
 }
