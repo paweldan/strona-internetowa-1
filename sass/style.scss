@@ -147,3 +147,33 @@ h3 {
 .box4 {
     font-size: 25px;
 }
+
+/* Footer */ 
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer i {
+    font-size: 30px;
+    background: black;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    border-radius: 50%;
+}
+
+.footer {
+    font-size: 0;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin: 5px;
+}
+
+i {
+    text-align: center;
+    padding: 15px;
+}
