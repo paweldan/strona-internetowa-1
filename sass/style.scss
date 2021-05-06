@@ -210,3 +210,26 @@ text-align: center;
 .box5 {
     margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+    .box1 {
+        flex-direction: column;
+    }
+
+    .center1 {
+        font-size: 20px;
+    }
+
+    .center2 {
+        font-size: 25px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .work-box1 {
+        padding: 0;
+    }
+}
