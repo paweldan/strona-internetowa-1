@@ -25,6 +25,10 @@ section {
 
 /* Navigation */ 
 
+.row {
+    text-align: center;
+}
+
 .navigation a {
     text-decoration: none;
     font-size: 18px;
@@ -70,11 +74,16 @@ section {
     background-color: orange
 }
 
+.btn:hover {
+    background-position: 0 100%;
+    color: black;
+}
+
 .navigation .box {
     margin-right: 600px;
 }
 
-.obraz {
+header {
     height: 100vh;
     position: relative;
     background-image: url('https://i.postimg.cc/g08j6F5p/pexels-pedro-figueras-681467.jpg');
@@ -105,7 +114,6 @@ section {
 
 header {
     line-height: 35px;
-    margin-top: 200px;
 }
 
 /* Section */
@@ -189,7 +197,6 @@ i {
 
 .card-body h3 {
 text-align: center;
-line-height: 1px;
 }
 
 .card-body p {
@@ -198,4 +205,8 @@ line-height: 1px;
 
 .card {
     border: 2px solid black;
+}
+
+.box5 {
+    margin-bottom: 20px;
 }
