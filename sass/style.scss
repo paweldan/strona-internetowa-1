@@ -147,7 +147,7 @@ section {
     margin-top: 100px;
 }
 
-.box1 i {
+.pudełko i {
     font-size: 20px;
     border: 4px solid orange;
     width: 60px;
@@ -169,7 +169,7 @@ h3 {
     font-size: 25px;
 }
 
-.box1 {
+.pudełko {
     padding: 15px;
 }
 
@@ -202,6 +202,10 @@ footer i {
 i {
     text-align: center;
     padding: 7px;
+}
+
+.d-flex {
+    display: flex;
 }
 
 .work-box1 i:hover {
@@ -238,16 +242,8 @@ text-align: center;
         flex-direction: column;
     }
 
-    .box1 {
+    .pudełko {
         padding: 25px;
-    }
-
-    .center1 {
-        font-size: 20px;
-    }
-
-    .center2 {
-        font-size: 25px;
     }
 
     .work-box1 {
